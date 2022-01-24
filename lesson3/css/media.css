@@ -11,6 +11,11 @@ body {
   font-family: "IM Fell French Canon SC", Lato, Helvetica, sans-serif;
 }
 
+main picture {
+  display: none;
+  margin: 1rem;
+}
+
 /* phone or baseline views **************************/
 header,
 footer {
