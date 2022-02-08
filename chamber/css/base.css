@@ -21,9 +21,11 @@ footer {
 }
 
 main {
-  display: flex;
+  display: grid;
   max-width: 100%;
   margin: 0 auto;
+  max-width: 900px;
+
 }
 
 
@@ -126,4 +128,67 @@ footer {
 
 .responsive a.ham::before {
   content: "❌ ";
+}
+
+.event {
+  background-color: lightgrey;
+  width: 300px;
+  height: 100px;
+  border: 2px solid grey;
+  padding: 20px;
+  margin: 5px;
+}
+
+.hero {
+  background-color: lightgrey;
+  width: 300px;
+  height: 100px;
+  border: 2px solid grey;
+  padding: 20px;
+  margin: 5px;
+}
+
+.weather {
+  background-color: lightgrey;
+  width: 300px;
+  height: 100px;
+  border: 2px solid grey;
+  padding: 20px;
+  margin: 5px;
+}
+
+.news {
+  background-color: lightgrey;
+  width: 300px;
+  height: 100px;
+  border: 2px solid grey;
+  padding: 20px;
+  margin: 5px;
+}
+
+.spotlight {
+  background-color: lightgrey;
+  width: 300px;
+  height: 300px;
+  border: 2px solid grey;
+  padding: 20px;
+  margin: 5px;
+}
+
+.spotlight1 {
+  background-color: lightgrey;
+  width: 250px;
+  height: 100px;
+  border: 2px solid grey;
+  padding: 20px;
+  margin: 1px;
+}
+
+.spotlight2 {
+  background-color: lightgrey;
+  width: 250px;
+  height: 100px;
+  border: 2px solid grey;
+  padding: 20px;
+  margin: 1px;
 }
