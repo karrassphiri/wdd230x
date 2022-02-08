@@ -16,4 +16,33 @@
   .navigation li:first-child {
     display: none;
   }
+
+  .hero,
+  .news {
+    width: 700px;
+  }
+
+  .event,
+  .weather {
+    display: none;
+  }
+
+  .spotlight {
+    display: flex;
+    width: 700px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .join {
+    background-color: lightgrey;
+    width: 300px;
+    height: 100px;
+    border: 2px solid grey;
+    padding: 20px;
+    margin: 5px;
+  }
+
 }
