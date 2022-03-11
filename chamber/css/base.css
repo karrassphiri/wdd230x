@@ -95,13 +95,7 @@ footer {
   margin-left: 0.5rem;
 }
 
-.m {
-  letter-spacing: 1pt;
-  color: #ffcc57;
-  font-weight: 700;
-  font-size: 0.8rem;
-  margin: 0;
-}
+
 
 h2 {
   letter-spacing: 1pt;
@@ -205,9 +199,7 @@ nav {
   padding: 0;
 }
 
-.navigation a:hover {
-  color: #ffcc57;
-}
+
 
 .navigation li:first-child {
   display: block;
@@ -217,15 +209,6 @@ nav {
   display: none;
 }
 
-.navigation a {
-  display: block;
-  padding: 0.75rem;
-  text-decoration: none;
-  color: #0ab6ff;
-  font-weight: 700;
-  transition: 0.5s;
-  font-size: clamp(1rem, 2vmin, 1.5rem);
-}
 
 /* .active{
   color:#ffcc57;
@@ -235,14 +218,7 @@ nav {
   color: #ffcc57;
 } */
 
-ul.navigation.responsive {
 
-  top: 0;
-  right: 0;
-  background-color: #0f3c43;
-  width: 100%;
-  z-index: 1;
-}
 
 picture.photo {
   display: block;
@@ -251,16 +227,12 @@ picture.photo {
 
 
 
-ul.navigation.responsive a:hover {
-  color: #ffcc57;
-}
+
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
 */
-.responsive li {
-  display: block;
-}
+
 
 .responsive a.ham::before {
   content: "❌ ";
@@ -279,7 +251,7 @@ ul.navigation.responsive a:hover {
 .welcome {
   position: absolute;
   background: #0f3c43;
-  color: #ffcc57;
+
   padding: 0.3em;
 }
 
