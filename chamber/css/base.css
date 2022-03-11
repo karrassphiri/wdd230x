@@ -116,10 +116,7 @@ nav {
 
 
 
-picture.photo {
-  display: block;
-  width: 96%;
-}
+
 
 .responsive a.ham::before {
   content: "❌ ";
