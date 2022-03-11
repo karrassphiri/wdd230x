@@ -1,9 +1,3 @@
-/*.container {
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}*/
-
 main {
   width: 100%;
   display: grid;
@@ -11,21 +5,12 @@ main {
   background-color: aqua;
 }
 
-/*main h3,
-h4 {
-  font-family: "IM Fell French Canon SC";
-  color: #0f3c43;
-}*/
 
 main div {
   padding: 1em;
   border: 1px solid rgb(207, 202, 202);
 }
 
-/*p {
-  font-family: "Montserrat";
-
-}*/
 
 
 footer,
@@ -38,25 +23,7 @@ header {
   padding: 5px 0;
 }
 
-/*header {
-  background-color: #0f3c43;
-  padding: 5px 0;
 
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  margin: 0 auto;
-  font-family: "IM Fell French Canon SC";
-}*/
-
-
-/*footer {
-  display: flex;
-  background-color: #7ce7c7;
-  font-size: 1rem;
-  font-family: "Montserrat";
-  font-size: 0.8em;
-}*/
 header,
 nav,
 main,
@@ -103,14 +70,7 @@ h2 {
   font-family: "IM Fell French Canon SC";
 }
 
-/*.social {
-  height: auto;
-}
 
-.social img {
-  padding: 0.3em;
-  border-radius: 0.8em;
-}*/
 .social {
   display: flex;
   align-items: center;
@@ -137,62 +97,6 @@ nav {
   max-width: 780px;
 }
 
-/*
-.navigation {
-  list-style: none;
-  text-align: center;
-  padding: 0;
-
-}
-
-.responsive li {
-  display: block;
-}
-
-.navigation {
-  list-style: none;
-  padding: 0;
-}
-
-.navigation li:first-child {
-  display: block;
-}
-
-.navigation li {
-  display: none;
-}
-
-.navigation a {
-  display: block;
-  padding: 0.75rem;
-  text-align: left;
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-  transition: 0.5s;
-  font-size: clamp(1rem, 2vmin, 1.5rem);
-}
-
-.navigation a.ham::before {
-  content: "🍔 ";
-}
-
-.navigation a:hover {
-  color: white;
-  background-color: black;
-}
-
-.responsive li {
-  display: block;
-}
-
-.responsive a.ham::before {
-  content: "❌ ";
-}*/
-
-
-
-
 
 .navigation {
   list-style: none;
@@ -209,14 +113,6 @@ nav {
   display: none;
 }
 
-
-/* .active{
-  color:#ffcc57;
-} */
-
-/* .navigation a:hover {
-  color: #ffcc57;
-} */
 
 
 
@@ -224,15 +120,6 @@ picture.photo {
   display: block;
   width: 96%;
 }
-
-
-
-
-
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
-
 
 .responsive a.ham::before {
   content: "❌ ";
