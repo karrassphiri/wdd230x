@@ -32,10 +32,6 @@ footer {
   margin: 0 auto;
 }
 
-.date_time {
-  align-items: center;
-  justify-self: center
-}
 
 .logo {
   display: flex;
@@ -65,7 +61,7 @@ footer {
 
 
 h2 {
-  letter-spacing: 1pt;
+
   color: #ffcc57;
   font-family: "IM Fell French Canon SC";
 }
@@ -85,8 +81,6 @@ h2 {
 
 }
 
-
-
 nav {
   display: flex;
   flex-direction: row-reverse;
@@ -103,6 +97,9 @@ nav {
   padding: 0;
 }
 
+.navigation a:hover {
+  color: #8656c5;
+}
 
 
 .navigation li:first-child {
@@ -113,21 +110,26 @@ nav {
   display: none;
 }
 
-
-
-
-
+.responsive li {
+  display: block;
+}
 
 .responsive a.ham::before {
   content: "❌ ";
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-decoration: none;
+  transition: 0.5s;
 }
 
 
 .welcome {
   position: absolute;
   background: #0f3c43;
-
-  padding: 0.3em;
+  padding: 0.2em;
 }
 
 .hero {
@@ -168,19 +170,11 @@ nav {
 
 .action {
   position: absolute;
-  bottom: 0%;
-  left: 35%;
+  bottom: 30%;
+  left: 10%;
   background-color: #fdfcfc;
   color: black;
-  font-size: 30px;
+  font-size: 15px;
   padding: 10px;
   border-radius: 80px;
-}
-
-main.discover {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
-  align-items: center;
-  padding-bottom: 20px;
 }
